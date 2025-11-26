@@ -7,14 +7,14 @@
 
 ---
 
-## 🗺️ 학습 로드맵 및 진도 현황 (Learning Roadmap & Progress)
+## 🗺️ 학습 로드맵 및 진도 현황
 
 | 단계 | 학습 자료 / 프로젝트 | 상태 | 주요 내용 |
 | :--- | :--- | :--- | :--- |
-| **Stage 1 (기초)** | **[DL_From_Scratch]** | ⏳ 진행 중 | 신경망의 동작 원리 이해 (NumPy 기반 구현) |
-| **Stage 2 (프레임워크)**| **[PyTorch_Core_Deep_Dive] (인프런 강의)** | 💡 예정 | PyTorch 실무 핵심 이론 심화 (Loss, GD, Normalization, CNN/RNN) |
-| **Stage 3 (심화/적용)**| **[TabNet_Specialization]** | 💡 예정 | 정형 데이터 딥러닝 모델 구조 및 Interpretabilty 분석 |
-| **Final Project**| **[Bidding_Pattern_Analysis]**| 💡 예정 | 실제 입찰 패턴 데이터에 TabNet 모델 적용 및 API 배포 |
+| **Stage 1 (기초)** | **DL_From_Scratch** | 진행 중 | 신경망의 동작 원리 이해 (NumPy 기반 구현) |
+| **Stage 2**| **PyTorch_Core_Deep_Dive** | 예정 | PyTorch 실무 핵심 이론 심화 (Loss, GD, Normalization, CNN/RNN) |
+| **Stage 3 (심화/적용)**| **TabNet_Specialization** | 예정 | 정형 데이터 딥러닝 모델 구조 및 Interpretabilty 분석 |
+| **Final Project**| **Bidding_Pattern_Analysis**| 예정 | 실제 입찰 패턴 데이터에 TabNet 모델 적용 및 API 배포 |
 ---
 
 ## 📂 주요 폴더 구조 설명
@@ -26,7 +26,7 @@
 | **`docs/`** | 회고 및 핵심 개념 정리. |
 ---
 
-## 🛠️ 환경 설정 (Setup)
+## 🛠️ 환경 설정
 
 ### 1. Python 환경 준비
 
