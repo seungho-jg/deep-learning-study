@@ -1,9 +1,9 @@
 # AI/Deep Learning Study Repository
 
-이 레포지토리는 백엔드 개발자로서 AI 및 딥러닝 지식을 습득하고 궁극적으로 **입찰 도메인 패턴 분석** 프로젝트를 성공적으로 수행하기 위한 모든 학습 과정과 코드를 기록합니다.
+AI 및 딥러닝 지식을 습득하고 궁극적으로 **입찰 도메인 패턴 분석** 프로젝트를 성공적으로 수행하기 위한 모든 학습 과정과 코드를 기록 레파지토리
 
-* **최종 목표:** TabNet과 같은 고급 모델을 활용하여 비즈니스 문제(경쟁사 입찰 전략 예측)를 해결하는 **실무 역량** 확보.
-* **주요 학습 기술:** Python, PyTorch, NumPy/Pandas, CNN/RNN/Attention Mechanism, MLOps 기본.
+* **최종 목표:** TabNet과 같은 고급 모델을 활용하여 비즈니스 문제(경쟁사 입찰 전략 예측)를 해결하는 **실무 역량** 확보
+* **주요 학습 기술:** Python, PyTorch, NumPy/Pandas, CNN/RNN/Attention Mechanism, MLOps 기본
 
 ---
 
