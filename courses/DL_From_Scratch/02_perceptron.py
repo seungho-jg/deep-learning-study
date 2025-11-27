@@ -71,9 +71,22 @@ def NAND(x1, x2):
     return 0
   else:
     return 1
+  
+def XOR(x1, x2):
+  s1 = NAND(x1, x2)
+  s2 = OR(x1, x2)
+  y = AND(s1, s2)
+  return y
+
+def ex_2_5_2():
+  print(XOR(0, 0))
+  print(XOR(0, 1))
+  print(XOR(1, 0))
+  print(XOR(1, 1))
 
 if __name__ == "__main__":
     #ex_2_3_1()
     #ex_2_3_2()
-    ex_2_3_3()
+    # ex_2_3_3()
+    ex_2_5_2()
 
