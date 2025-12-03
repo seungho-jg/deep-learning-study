@@ -33,7 +33,29 @@ def ex_3_2():
     plt.ylim(-0.1, 1.1) # y축의 범위 지정
     plt.show()
 
+def ex_3_2_4():
+    """ 시그모이드 함수 """
+    def sigmoid(x):
+        return 1 / (1 + np.exp(-x))
+    x = np.arange(-5.0, 5.0, 0.1)
+    y = sigmoid(x)
+    plt.plot(x, y)
+    plt.ylim(-0.1, 1.1)
+    plt.show()
+
+def ex_3_2_7():
+    """ ReLU 함수 """
+    def relu(x):
+        return np.maximum(0, x)
+    x = np.arange(-5.0, 5.0, 0.1)
+    y = relu(x)
+    plt.plot(x, y)
+    plt.ylim(-0.1, 5)
+    plt.show()
+
+# 3.3 다차원 배열의 연산
+
 
 if __name__ == "__main__":
-    ex_3_2()
+    ex_3_2_7()
     pass
